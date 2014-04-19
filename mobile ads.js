@@ -4,10 +4,10 @@ function main() {
   
   var IMPRESSIONS_THRESHOLD = 100;       // min. impressions an ad needs to have to be considered
   var DATE_RANGE = "LAST_30_DAYS";       // time frame for impression threshold 
-  var ADGROUP_NAME_CONTAINS = 'brand';   // word or phrase that eligible adgroup name must contain
+  var ADGROUP_NAME_CONTAINS = 'something';   // word or phrase that eligible adgroup name must contain
   
   var DESC_LINE_1 = "Free Shipping and Free Returns!";   // description line 1 (end with punctuation)
-  var CTA_CONTROL = "Shop Latest MIA Styles Today";      // a historically succesful CTA for line 2
+  var CTA_CONTROL = "Shop Latest Cool Styles Today";      // a historically succesful CTA for line 2
   var CTA_MOBILE = "Call Now To Place Your Order";       // new mobilized CTA to test for line 2
       
   // select adgroups that meet criteria defined above
